@@ -254,7 +254,7 @@ body::-webkit-scrollbar {
     }
 
     .photo {
-        transform: translateX(-26%);
+        transform: translateX(-20%);
         margin-top: 13em;
         position: absolute;
         height: 150px;
