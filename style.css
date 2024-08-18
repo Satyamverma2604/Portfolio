@@ -83,7 +83,7 @@ body::-webkit-scrollbar {
 }
 
 #main-2 {
-    width: 50vh;
+    width: 30vh;
     margin-top: 20vh;
     margin-left: 10vw;
 }
@@ -140,8 +140,8 @@ body::-webkit-scrollbar {
 }
 
 .photo {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     overflow: hidden;
     position: relative;
@@ -233,7 +233,7 @@ body::-webkit-scrollbar {
     font-size: 2.5em;
     color: var(--text-color);
     background-color: transparent;
-    margin-left: 90%;
+    margin-left: 80%;
     margin-top: 2%;
     display: none;
 
@@ -250,6 +250,26 @@ body::-webkit-scrollbar {
 
     body {
         margin-left: 1em;
+    }
+
+    .photo {
+
+        position: relative;
+        height: 200px;
+        width: 200px;
+    }
+
+    #main-1 h1 {
+        color: var(--main-color);
+        font-size: 2.3em;
+    }
+
+    #main h4 {
+        margin-bottom: 1.2rem;
+        font-size: 1.5em;
+        font-weight: 600;
+        min-width: 280px;
+
     }
 }
 
@@ -286,6 +306,17 @@ body::-webkit-scrollbar {
         text-decoration: 2px solid underline var(--main-color);
         color: var(--main-color);
         opacity: 1;
+
+    }
+}
+
+@media screen and (max-width:320px) {
+    #main-2 {
+        display: none;
+    }
+
+    .menuNav {
+        margin-left: 40%;
 
     }
 }
