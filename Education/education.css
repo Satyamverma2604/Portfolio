@@ -295,12 +295,13 @@ body::-webkit-scrollbar {
 
 .menu-bar {
     float: right;
-    margin-left: 32.25%;
+    margin-left: 43%;
     position: relative;
     font-size: 2em;
     color: var(--text-color);
     background-color: transparent;
     margin-top: 2%;
+    display: none;
 
 }
 
@@ -315,6 +316,10 @@ body::-webkit-scrollbar {
 
     body {
         margin-left: 1em;
+    }
+
+    .timeline-content {
+        font-size: 80%;
     }
 
 }
