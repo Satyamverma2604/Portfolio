@@ -249,9 +249,7 @@ body::-webkit-scrollbar {
         display: block;
     }
 
-    body {
-        margin-left: 1em;
-    }
+
 
     .photo {
         margin-top: 13em;
