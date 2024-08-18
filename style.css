@@ -281,6 +281,14 @@ body::-webkit-scrollbar {
 
     }
 
+    #footer {
+        text-align: center;
+    }
+
+    #contact {
+        float: 50%;
+    }
+
 
 }
 
