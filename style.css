@@ -234,7 +234,7 @@ body::-webkit-scrollbar {
     font-size: 2em;
     color: var(--text-color);
     background-color: transparent;
-    margin-left: 80%;
+    margin-left: 43%;
     margin-top: 2%;
     display: none;
 
@@ -249,13 +249,16 @@ body::-webkit-scrollbar {
         display: block;
     }
 
-
+    body {
+        margin-left: 1em;
+    }
 
     .photo {
+        transform: translateX(-26%);
         margin-top: 13em;
         position: absolute;
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
     }
 
     #main-1 h1 {
@@ -274,7 +277,7 @@ body::-webkit-scrollbar {
 
     .About p {
 
-        width: 100vw;
+        width: 95vw;
 
     }
 
@@ -291,8 +294,8 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: column;
     display: block;
-    width: 50%;
-    height: 280%;
+    width: fit-content;
+    height: fit-content;
     background-color: var(--second-bg-color);
     border-radius: 10px;
 
@@ -302,18 +305,13 @@ body::-webkit-scrollbar {
         color: var(--text-color);
         text-align: center;
         margin: 20px;
+        opacity: .7;
     }
 
     #home {
         color: var(--text-color);
-    }
-
-    .link:hover {
-
-        transition: .2s ease-in;
-        text-decoration: 2px solid underline var(--main-color);
-        color: var(--main-color);
-        opacity: 1;
+        opacity: .7;
+        text-decoration: none;
 
     }
 }
@@ -323,8 +321,5 @@ body::-webkit-scrollbar {
         display: none;
     }
 
-    .menuNav {
-        margin-left: 40%;
 
-    }
 }
